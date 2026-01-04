@@ -29,7 +29,7 @@ export default function About() {
                 <h2>Our team</h2>
                 <div className="team-grid">
                     {teamMembers.map((member, index) => (
-                        <div key={index} className="team-card">
+                        <div key={member.name} className="team-card">
                             <div className="team-photo"></div>
                             <div className="team-info">
                                 <h3>{member.name}</h3>
